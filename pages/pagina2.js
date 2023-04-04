@@ -6,11 +6,15 @@ import Rodape from '../components/Rodape'
 
 
 const pagina2 = () => {
-  return (
-    <>
-    <Pagina />
-    </>
-  )
+
+    return (
+      <>
+      <Pagina titulo='Página 2'>
+        </Pagina>
+
+      <Rodape />  
+      </>
+    )
 }
 
 export default pagina2

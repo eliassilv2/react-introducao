@@ -5,14 +5,14 @@ import Pagina from '../components/Pagina';
 export default function Home() {
   return (
     <>
-      <Pagina />
+      <Pagina titulo='Pagina Inicial'>
 
-      <Container>
-      <h1>Hello World</h1>
-      <p>Qualquer texto</p>
-      <p>Qualquer texto</p>
-      <p>Qualquer texto</p>
-      </Container>
+        <h1>Hello World</h1>
+        <p>Qualquer texto</p>
+        <p>Qualquer texto</p>
+        <p>Qualquer texto</p>
+
+      </Pagina>
     </>
     )
   }
